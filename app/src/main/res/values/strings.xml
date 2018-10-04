@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">class test</string>
+
+
+    <string-array name="country">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakisthan</item>
+        <item>America</item>
+        <item>Singapur</item>
+    </string-array>
+
+    <string name="Bangladesh">
+        Welcome to Bangladesh.
+    </string>
+
+    <string name="India">
+        Welcome to India.
+    </string>
+
+    <string name="Pakisthan">
+        Welcome to Pakisthan.
+    </string>
+
+    <string name="America">
+        Welcome to America.
+    </string>
+
+    <string name="Singapur">
+        Welcome to Singapur.
+    </string>
+
+
+</resources>

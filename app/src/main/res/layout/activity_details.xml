@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Details"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulation"
+        android:textAlignment="center"
+        android:textColor="#087314"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+<!--
+
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center">
+
+    </Spinner>
+-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tVdetId"
+            android:textSize="25dp"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</LinearLayout>
